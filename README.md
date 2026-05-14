@@ -46,7 +46,7 @@ The raw dataset contained:
 
 # 🏗️ Phase 1 — Data Cleaning (`cleaning.py`)
 
-The first phase focused on transforming inconsistent raw delivery data into a cleaner and analysis-ready dataset. :contentReference[oaicite:0]{index=0}
+The first phase focused on transforming inconsistent raw delivery data into a clean and analysis-ready dataset.
 
 ---
 
@@ -126,7 +126,7 @@ Revenue = Price × Quantity
 
 ## 5. Multi-Level Fallback Strategy (Key Part)
 
-One of the strongest preprocessing techniques used in this project was hierarchical/group-based imputation. :contentReference[oaicite:1]{index=1}
+One of the strongest preprocessing techniques used in this project was hierarchical, group-based imputation.
 
 Instead of using global averages, missing values were filled contextually.
 
@@ -194,7 +194,7 @@ to ensure categorical consistency.
 
 # 📊 Phase 2 — Business Analytics (`analysis.py`)
 
-The second phase focused on extracting meaningful operational and customer insights from the cleaned dataset. :contentReference[oaicite:2]{index=2}
+The second phase focused on extracting meaningful operational and customer insights from the cleaned dataset. 
 
 This phase moved beyond simple plotting and focused on asking business-oriented analytical questions.
 
@@ -261,7 +261,7 @@ Helps identify high-demand periods for:
 Compared average delivery time across cities.
 
 ### Business Insight:
-Helps identify operationally efficient markets.
+Helps identify cities with more operationally efficient delivery systems.
 
 ---
 
@@ -306,7 +306,7 @@ Using delivery speed categories produced:
 - and more business-friendly analysis.
 
 ### Business Insight:
-Faster deliveries generally resulted in better customer ratings.
+Faster deliveries generally showed higher average customer ratings.
 
 ---
 
@@ -344,7 +344,7 @@ Helps identify high-performing expansion markets.
 Compared restaurant-level revenue performance.
 
 ### Business Insight:
-High-performing restaurants may benefit from:
+High-performing restaurants may further benefit from:
 - menu optimization,
 - stronger promotions,
 - or operational scaling.
