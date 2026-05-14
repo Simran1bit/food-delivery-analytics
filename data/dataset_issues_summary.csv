@@ -1,0 +1,8 @@
+Issue Type,Included
+Duplicate Rows,Yes
+Missing Values,Yes
+Negative Prices,Yes
+Text in Numeric Columns,Yes
+Invalid Dates,Yes
+Inconsistent City Names,Yes
+Invalid Ratings,Yes
