@@ -11,6 +11,19 @@ This project focuses heavily on:
 The project was intentionally built using a small but highly inconsistent dataset for learning purposes.
 
 ---
+# 📌 Workflow
+
+Raw Dataset
+↓
+Data Cleaning & Validation
+↓
+Feature Engineering
+↓
+Exploratory Data Analysis
+↓
+Business Insights & Visualizations
+
+---
 
 # 📌 About the Dataset
 
@@ -362,6 +375,17 @@ Examples include:
 - Average Delivery Time per Restaurant
 - Customer Rating vs Delivery Speed
 - Number of Orders per Month
+
+# 📸 Sample Visualizations
+
+## Revenue per City
+![Revenue per City](images/revenue_per_city.png)
+
+## Customer Rating vs Delivery Speed
+![Number of orders per Month](images/number_of_orders_per_month.png)
+
+## Revenue per Category
+![Revenue per Category](images/revenue_per_category.png)
 
 ---
 
