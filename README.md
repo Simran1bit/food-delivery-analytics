@@ -11,17 +11,20 @@ This project focuses heavily on:
 The project was intentionally built using a small but highly inconsistent dataset for learning purposes.
 
 ---
-# 📌 Workflow
 
+# 📌 Project Workflow
+
+```text
 Raw Dataset
-↓
+      ↓
 Data Cleaning & Validation
-↓
+      ↓
 Feature Engineering
-↓
+      ↓
 Exploratory Data Analysis
-↓
+      ↓
 Business Insights & Visualizations
+```
 
 ---
 
@@ -381,7 +384,7 @@ Examples include:
 ## Revenue per City
 ![Revenue per City](images/revenue_per_city.png)
 
-## Customer Rating vs Delivery Speed
+## Number of orders per Month
 ![Number of orders per Month](images/number_of_orders_per_month.png)
 
 ## Revenue per Category
