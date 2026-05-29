@@ -1,4 +1,4 @@
-# 🍔 Food Delivery Analytics Project
+# 🍔 Food Delivery Analytics Project (Python)
 
 An end-to-end Data Analytics project built using Python to simulate a real-world food delivery business workflow.
 
