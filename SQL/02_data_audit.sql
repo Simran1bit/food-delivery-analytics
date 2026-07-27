@@ -101,6 +101,11 @@ from orders_raw
 where "date" is not null
 limit 20;
 
+-- 181 + invalid_date
+select distinct `date`
+from clean_orders
+order by `date`;
+
 -- Data Summary
 SELECT
     COUNT(*) AS Total_Rows,
