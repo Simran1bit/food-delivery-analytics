@@ -163,13 +163,13 @@ The project automatically generates visualizations including:
 # 📸 Sample 
 
 ## Revenue per City
-![Revenue per City](Python/images/revenue_per_city.png)
+![Revenue per City](images/revenue_per_city.png)
 
 ## Number of orders per Month
-![Number of orders per Month](Python/images/number_of_orders_per_month.png)
+![Number of orders per Month](images/number_of_orders_per_month.png)
 
 ## Revenue per Category
-![Revenue per Category](Python/images/revenue_per_category.png)
+![Revenue per Category](images/revenue_per_category.png)
 
 Generated charts are saved inside the `images/` directory.
 
