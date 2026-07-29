@@ -24,30 +24,31 @@ The project follows a realistic analytics workflow including data auditing, clea
 ## 🏗️ Project Architecture
 
 ```text
-Raw Dataset
-      │
-      ▼
-SQLite Database
-      │
-      ▼
-SQL Data Audit
-      │
-      ▼
-SQL Data Cleaning
-      │
-      ▼
-Business Analysis (SQL)
-      │
-      ▼
-Reporting Views
-      │
-      ├──────────────┐
-      ▼              ▼
-Python EDA     Power BI Dashboard
-      │              │
-      └──────┬───────┘
-             ▼
-     Business Insights
+                              Raw Food Delivery Dataset
+                                         │
+                     ┌───────────────────┴───────────────────┐
+                     │                                       │
+                     ▼                                       ▼
+             🐍 Python Analytics                     🗄️ SQL Analytics
+                     │                                       │
+             Data Cleaning                           Data Import
+                     │                                       │
+             Feature Engineering                     Data Quality Audit
+                     │                                       │
+         Exploratory Data Analysis                  Data Cleaning
+                     │                                       │
+            Business Visualizations               Business Analysis
+                     │                                       │
+             Charts & Insights                    Reporting Views
+                                                             │
+                                                             ▼
+                                                      ODBC Connection
+                                                             │
+                                                             ▼
+                                                     📊 Power BI Dashboard
+                                                             │
+                                                             ▼
+                                                   Executive Business Insights
 ```
 
 ---
