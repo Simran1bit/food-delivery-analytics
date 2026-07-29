@@ -192,7 +192,7 @@ The dashboard reveals several important insights, including:
 
 # 📷 Dashboard Preview
 
-![Food Delivery Analytics Dashboard](PowerBI/dashboard.png)
+![Food Delivery Analytics Dashboard](dashboard.png)
 
 ---
 
